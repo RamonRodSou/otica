@@ -31,8 +31,9 @@
     }
 
     @media (min-width: 768px) {
+        width: 100%;
         .redes {
-            justify-content: space-around;
+            justify-content: space-between;
             flex-direction: row;
             flex-wrap: wrap;
         }

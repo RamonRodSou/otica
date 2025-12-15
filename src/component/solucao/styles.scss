@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    width: 100%;
 
     .infor {
         display: flex;
@@ -27,10 +28,13 @@
 
     @media (min-width: 768px) {
         .infor {
+            width: 100%;
+
             .lentes {
-                justify-content: space-around;
+                justify-content: space-between;
                 flex-direction: row;
                 flex-wrap: wrap;
+                width: 100%;
                 gap: 1.5rem;
             }
         }
