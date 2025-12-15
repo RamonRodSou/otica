@@ -1,0 +1,47 @@
+
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.botaoUp {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 99;
+  
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--primary);
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 0; 
+  animation: fadeInUp 1s ease-out forwards;
+  animation-delay: 3s;
+
+  transition: background-color 0.3s, transform 0.2s;
+  
+  &:hover {
+    background-color: var(--primary-houver);
+    transform: translateY(-3px);
+  }
+
+  svg {
+    font-size: 1.8rem;
+  }
+}

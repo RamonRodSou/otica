@@ -1,0 +1,95 @@
+.hero {
+    position: relative;
+    background-image: url('../../asserts/img/background-hero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 2rem;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to bottom, rgba(255,255,255,0) 40%, rgba(255,255,255,0.9) 70%, #ffffff 100%);
+        z-index: 1;
+    }
+
+    .apresentacao {
+        width: 100%;
+
+        .title {
+            position: relative;
+            z-index: 2;
+            color: var(--primary);
+            font-weight: 900;
+            font-size: 3.5rem;
+            
+            &:first-of-type {
+                align-self: flex-start;
+                text-align: left;
+            }
+    
+            &:last-of-type {
+                align-self: flex-end;
+                text-align: right;
+            }
+        }
+    }
+
+    .valor {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        justify-content: center;
+        gap: 1rem;
+        width: 100%;
+        margin-top: 1rem; 
+
+        .apenas {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            
+            border-left: 4px solid var(--primary); 
+            padding-left: 8px;
+            
+            color: var(--primary);
+            
+            span {
+                font-size: 1.2rem;
+                line-height: 1.2;
+            }
+        }
+
+        .promocao {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            color: var(--primary);
+            line-height: 1;
+            
+            h2 {
+                font-size: 7rem;
+                font-weight: 900;
+                margin: 0;
+                line-height: 0.8; 
+            }
+            
+            p {
+                font-size: 2rem;
+                font-weight: 900;
+            }
+        }
+    }
+}

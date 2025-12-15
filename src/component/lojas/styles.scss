@@ -1,0 +1,27 @@
+.lojas {
+    background-color: var(--primary);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    .infor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .title {
+            font-weight: 900;
+            font-size: 2.5rem;
+            color: var(--secondary);
+        }
+    
+        .descricao {
+            color: var(--secondary);
+            width: 70%;
+        }
+
+    }
+
+}

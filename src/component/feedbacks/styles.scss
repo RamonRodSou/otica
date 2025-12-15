@@ -1,0 +1,78 @@
+.feedback {
+    background-color: var(--secondary);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    .infor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .title {
+            font-weight: 900;
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 2rem;
+
+        }
+    }
+
+    .card {
+        width: 100%;
+        position: relative;
+        box-shadow:'5px 5px 10px var(--primary)';
+        
+        .infor {
+            display: flex;
+            flex-direction: column;
+            padding: 2rem;
+            height: 180px;
+
+            
+            align-items: start;
+
+            .card-infor {
+                padding: 1rem;
+    
+                .nome-cliente {
+                    color: var(--primary);
+                    font-weight: 900;
+                }
+            }
+
+            .feeback-cliente {
+                text-align: start;
+                font-size: .8rem;
+            }
+        }
+    }
+
+    :global(.swiper) {
+        padding-bottom: 3rem;
+        width: 100%;
+    }
+
+    :global(.swiper-pagination-bullets) {
+        bottom: 0 !important; 
+    }
+
+    :global(.swiper-pagination-bullet) {
+        background-color: var(--primary);
+        width: 8px;
+        height: 8px;
+        opacity: 0.4;
+        margin: 0 6px !important;
+        transition: all 0.3s ease;
+    }
+
+    :global(.swiper-pagination-bullet-active) {
+        background-color: transparent;
+        border: 2px solid var(--primary);
+        opacity: 1;
+        transform: scale(1.2);
+    }
+
+}

@@ -1,3 +1,21 @@
+:root {
+  --primary: #119184;
+  --primary-houver: #083d38;
+
+  --secondary: #ffffff;
+  --premio: #ff6600;
+  --premio-secondary: #f59555;
+  --premio-houver: #cc5200;
+  --first: #000000;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

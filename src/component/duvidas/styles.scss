@@ -1,0 +1,65 @@
+.duvidas {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 16px;
+
+    .title {
+        color: var(--primary);
+        font-weight: bold;
+        margin-bottom: 24px;
+        font-family: sans-serif;
+        text-align: center;
+    }
+
+    .accordion {
+        margin-bottom: 12px;
+        border-radius: 8px !important;
+        box-shadow: none;
+        background-color: var(--primary);
+        color: var(--secondary);
+        transition: background-color 0.3s ease;
+
+        &:before {
+            display: none;
+        }
+
+        .expand-icon {
+            color: var(--secondary);
+        }
+
+        &.expanded {
+            background-color: #F5F5F5;
+            color: var(--primary);
+
+            .expand-icon {
+                color: var(--primary);
+            }
+        }
+
+        .MuiAccordionSummary-root {
+            font-weight: bold;
+            min-height: 60px;
+
+            .MuiAccordionSummary-content {
+                margin: 12px 0;
+            }
+        }
+
+        .question {
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        .MuiAccordionDetails-root {
+            background-color: #F5F5F5;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+
+        .response {
+            color: var(--first);
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+    }
+}
