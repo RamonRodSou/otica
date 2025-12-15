@@ -25,9 +25,10 @@ export default function Hero() {
             </Box>
             <Box>
                 <BenefitsSection/>
-            </Box>
-            <Botao/>
+                <Botao/>
             <Botao nome="VER UNIDADES" color='var(--premio-secondary)'/>
+
+            </Box>
 
         </Box>
     )
