@@ -13,15 +13,16 @@ export default function Solucao() {
                 <Typography variant='h3' className='title'>
                     Soluções em lentes feitas sob medida para você!
                 </Typography>
-                {tiposLentes.map((it)=> (
-                    <Qualidade 
-                        id={it.id}
-                        titulo={it.titulo}
-                        subtitulo={it.subtitulo}
-                    />
-                ))}
-
-                <Botao nome=''/>
+                <Box className="lentes">
+                    {tiposLentes.map((it)=> (
+                        <Qualidade 
+                            id={it.id}
+                            titulo={it.titulo}
+                            subtitulo={it.subtitulo}
+                        />
+                    ))}
+                </Box>
+                <Botao/>
             </Box>
         </Box>
     )

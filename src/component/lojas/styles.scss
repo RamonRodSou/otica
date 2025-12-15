@@ -6,6 +6,7 @@
     align-items: center;
     gap: 2rem;
 
+    
     .infor {
         display: flex;
         flex-direction: column;
@@ -21,7 +22,20 @@
             color: var(--secondary);
             width: 70%;
         }
+    }
 
+    .redes {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    @media (min-width: 768px) {
+        .redes {
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
     }
 
 }

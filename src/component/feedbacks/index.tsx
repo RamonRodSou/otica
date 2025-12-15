@@ -7,8 +7,6 @@ import { feedbacks } from './feedbacks';
 import { Box, Card, Rating, Typography } from '@mui/material';
 import Botao from '../botao';
 
-
-
 export default function Feedback() {
     return (
         <Box className="feedback">
@@ -25,8 +23,7 @@ export default function Feedback() {
             <Box className="card">
                 <Swiper
                     modules={[Pagination, Autoplay]}
-                    spaceBetween={30}
-                    slidesPerView={1}
+                    spaceBetween={20} 
                     loop={true}
                     speed={1000}
                     pagination={{ clickable: true }}
@@ -35,10 +32,20 @@ export default function Feedback() {
                         disableOnInteraction: false 
                     }}
                     className="mySwiper"
+                    breakpoints={{
+                        0: {
+                            slidesPerView: 1,
+                            spaceBetween: 20,
+                        },
+                        768: {
+                            slidesPerView: 2,
+                            spaceBetween: 30,
+                        },
+                    }}
                 >
                     {feedbacks.map((it) => (
                         <SwiperSlide key={it.id}>
-                            <Card  className="card-infor">
+                            <Card className="card-infor">
                                 <Box className="infor">
                                     <Typography variant='body1' className="nome-cliente">
                                         {it.nome}
@@ -57,7 +64,6 @@ export default function Feedback() {
                                         {it.descricao}
                                     </Typography>
                                 </Box>
-
                             </Card>
                         </SwiperSlide>
                     ))}

@@ -1,6 +1,6 @@
 import Botao from '../botao';
 import './styles.scss';
-import { Box, Typography } from '@mui/material';
+import { Box, Container, Typography } from '@mui/material';
 
 export default function Lojas() {
 
@@ -12,32 +12,34 @@ export default function Lojas() {
                 </Typography>
             </Box>
 
-            <Box className="infor">
-                <Typography variant='h3' className='title'>
-                    + 2.000
-                </Typography>
-                <Typography variant='body2' className='descricao'>
-                    modelos de armação
-                </Typography>
-            </Box>
-            <Box className="infor">
-                <Typography variant='h3' className='title'>
-                    + 22
-                </Typography>
-                <Typography variant='body2' className='descricao'>
-                    lojas para melhor te atender
-                </Typography>
-            </Box>
-            <Box className="infor">
-                <Typography variant='h3' className='title'>
-                    + 22.000
-                </Typography>
-                <Typography variant='body2' className='descricao'>
-                    lojas para melhor te atender
-                </Typography>
-            </Box>
+            <Container className="redes">
+                <Box className="infor">
+                    <Typography variant='h3' className='title'>
+                        + 2.000
+                    </Typography>
+                    <Typography variant='body2' className='descricao'>
+                        modelos de armação
+                    </Typography>
+                </Box>
+                <Box className="infor">
+                    <Typography variant='h3' className='title'>
+                        + 22
+                    </Typography>
+                    <Typography variant='body2' className='descricao'>
+                        lojas para melhor te atender
+                    </Typography>
+                </Box>
+                <Box className="infor">
+                    <Typography variant='h3' className='title'>
+                        + 22.000
+                    </Typography>
+                    <Typography variant='body2' className='descricao'>
+                        lojas para melhor te atender
+                    </Typography>
+                </Box>
+            </Container>
 
-            <Botao/>
+            <Botao nome="RETIRAR MEU VOUCHER!"/>
         </Box>
     )
 }

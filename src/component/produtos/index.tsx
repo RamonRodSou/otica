@@ -12,21 +12,23 @@ export default function Produto() {
                     Qualidade e diversidade que transformam seu visual!
                 </Typography>
             </Box>
-            <Carousel 
-                image={oculosMascolinoImage}
-                titulo='Óculos Masculino'
-                subtitulo='Precisão e estilo para cuidar da sua visão diariamente.'
-            />
-            <Carousel 
-                image={oculosFemininoImage}
-                titulo='Óculos Feminino'
-                subtitulo='Praticidade e versatilidade com lentes para dia e noite.'
-            />
-            <Carousel 
-                image={oculosInfantilImage}
-                titulo='Óculos Infantis'
-                subtitulo='Conforto e segurança em óculos feitos para os pequenos.'
-            />
+            <Box className="items">
+                <Carousel 
+                    image={oculosMascolinoImage}
+                    titulo='Óculos Masculino'
+                    subtitulo='Precisão e estilo para cuidar da sua visão diariamente.'
+                />
+                <Carousel 
+                    image={oculosFemininoImage}
+                    titulo='Óculos Feminino'
+                    subtitulo='Praticidade e versatilidade com lentes para dia e noite.'
+                />
+                <Carousel 
+                    image={oculosInfantilImage}
+                    titulo='Óculos Infantis'
+                    subtitulo='Conforto e segurança em óculos feitos para os pequenos.'
+                />
+            </Box>
         </Box>
     )
 }

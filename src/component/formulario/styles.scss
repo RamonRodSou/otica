@@ -1,28 +1,45 @@
 .formulario {
-    background-color: var(--secondary);
+    background-color: var(--primary);
     padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
 
-    .infor {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .formulario-data {
+        background-color: var(--secondary);
+        padding: 2rem;
+        border-radius: 50px;
 
-        .title {
-            font-weight: 900;
-            font-size: 2rem;
-            color: var(--primary);
-            margin-bottom: 2rem
+        .infor {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 2rem 0;
+            .title {
+                font-weight: 900;
+                font-size: 1.6rem;
+                color: var(--primary);
+                margin-bottom: 2rem
+            }
+    
+            .subtitle {
+                span {
+                    color: var(--primary);
+                    font-weight: 900;
+                }
+            }
         }
 
-        .subtitle {
-            span {
-                color: var(--primary);
-                font-weight: 900;
+        @media (min-width: 768px) {
+            .formulario-data {
+                .infor {
+                    .title {
+                        font-size: 2rem;
+                    }
+                }
             }
+    
         }
     }
 }
