@@ -39,7 +39,7 @@ export default function Lojas() {
                 </Box>
             </Container>
 
-            <Botao nome="RETIRAR MEU VOUCHER!"/>
+            <Botao text='var(--primary)' color='var(--secondary)'/>
         </Box>
     )
 }

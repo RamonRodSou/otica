@@ -1,11 +1,13 @@
 :root {
-  --primary: #119184;
-  --primary-houver: #083d38;
+  --primary: #f52b2b;
+  --primary-escuro: #710202e3;
+
+  --primary-houver: #7b1414;
 
   --secondary: #ffffff;
-  --premio: #ff6600;
-  --premio-secondary: #f59555;
-  --premio-houver: #cc5200;
+  --premio: #cc5200;
+  --premio-secondary: #723913;
+  --premio-houver: #f59555;
   --first: #000000;
 
 }
