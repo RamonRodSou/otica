@@ -16,9 +16,15 @@ export default function Botao({ nome, color, text }: Atributos) {
     const NOME = nome ? nome : 'QUERO AGENDAR MEU EXAME!'
 
     async function handleSubmit(): Promise<void> {
-        const element = document.getElementById('faleConosco');
-        if (element) {
-            element.scrollIntoView({ behavior: 'smooth' }); 
+        // const element = document.getElementById('faleConosco');
+        // if (element) {
+        //     element.scrollIntoView({ behavior: 'smooth' }); 
+        // }
+
+        try {
+            window.location.href = "https://api.whatsapp.com/send/?phone=5515991887762&text=Ol%C3%A1%2C+vim+do+site+e+gostaria+de+mais+informa%C3%A7%C3%B5es%21&type=phone_number&app_absent=0";
+        } catch (error) {
+            console.error("Routing Error", error)
         }
     }
 
