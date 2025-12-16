@@ -34,7 +34,7 @@ export default function Lojas() {
                         + 50.000
                     </Typography>
                     <Typography variant='body2' className='descricao'>
-                        lojas para melhor te atender
+                        clientes atendidos
                     </Typography>
                 </Box>
             </Container>
