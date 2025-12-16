@@ -8,14 +8,16 @@ export default function Hero() {
     return (
         <Box className="hero">
             <Box className="apresentacao">
-                <Typography variant='h2' className="title">2 Óculos</Typography>
-                <Typography variant='h2' className="title">completos</Typography>
+                <Typography variant='h2' className="title">ARMAÇÃO</Typography>
+                <Typography variant='h2' className="title">+</Typography>
+
+                <Typography variant='h2' className="title"> GRÁTIS</Typography>
             </Box>
             <Box className="valor">
                 <Box className='apenas'>
-                    <span>por</span>
+                    <span>Exame por</span>
                     <span>apenas</span>
-                    <span>10x de</span>
+                    {/* <span>10x de</span> */}
                 </Box>
                 
                 <Box className='promocao'>

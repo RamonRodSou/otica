@@ -9,7 +9,7 @@ export default function Produto() {
         <Box className="produto">
             <Box className="infor">
                 <Typography variant='h3' className='title'>
-                    Qualidade e diversidade que transformam seu visual!
+                    Escolha o presente que combina com seu rosto
                 </Typography>
             </Box>
             <Box className="items">

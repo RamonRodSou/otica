@@ -8,7 +8,7 @@ export default function Lojas() {
         <Box className="lojas">
             <Box className="infor">
                 <Typography variant='h3' className='title'>
-                    Somos a maior e melhor rede de óticas de SP!
+                    A Ótica que cuida da sua visão e do seu bolso!
                 </Typography>
             </Box>
 
@@ -31,7 +31,7 @@ export default function Lojas() {
                 </Box>
                 <Box className="infor">
                     <Typography variant='h3' className='title'>
-                        + 22.000
+                        + 50.000
                     </Typography>
                     <Typography variant='body2' className='descricao'>
                         lojas para melhor te atender

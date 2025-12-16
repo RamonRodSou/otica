@@ -11,7 +11,7 @@ export default function Solucao() {
         <Box className="solucao">
             <Box className="infor">
                 <Typography variant='h3' className='title'>
-                    Soluções em lentes feitas sob medida para você!
+                    Tecnologia de ponta para seus olhos
                 </Typography>
                 <Box className="lentes">
                     {tiposLentes.map((it)=> (

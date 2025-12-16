@@ -1,52 +1,52 @@
 export const faqData = [
   {
-    id: 'panel1',
-    pergunta: '1. Quais são os tipos de lentes disponíveis na ótica?',
-    resposta: 'Oferecemos lentes monofocais, multifocais, bifocais e ocupacionais, cada uma adaptada à sua necessidade. Visite nossa loja para orientação especializada.'
+    id: 1,
+    pergunta: '1. A armação é realmente grátis? Tem alguma pegadinha?',
+    resposta: 'Transparência total: Na compra das lentes de grau completas conosco, a armação selecionada (da nossa coleção promocional) sai por R$ 0,00. Você paga apenas o valor das lentes e leva os óculos completos!'
   },
   {
-    id: 'panel2',
-    pergunta: '2. Como escolher o melhor tipo de armação para meu rosto?',
-    resposta: 'O ideal é buscar o equilíbrio. Rostos redondos combinam com armações quadradas ou retangulares, enquanto rostos quadrados ficam bem com modelos arredondados. Nossos consultores podem ajudar você na escolha!'
+    id: 2, 
+    pergunta: '2. Como funciona o Exame de Vista Cortesia?',
+    resposta: 'É simples: Nós temos parcerias com clínicas e optometristas de excelência. Agendamos seu horário e, ao fechar os óculos na ótica, o custo da consulta é por nossa conta.'
   },
   {
-    id: 'panel3',
-    pergunta: '3. As lentes possuem proteção contra luz azul?',
-    resposta: 'Sim, oferecemos tratamentos específicos como o Blue Control, que filtram a luz azul nociva emitida por telas digitais, protegendo seus olhos e melhorando o sono.'
+    id: 3,
+    pergunta: '3. Já tenho receita de outro médico. Posso aproveitar a promoção?',
+    resposta: 'Com certeza! Traga sua receita (dentro da validade). Você compra as lentes com a tecnologia que precisa e, da mesma forma, ganha a armação de presente.'
   },
   {
-    id: 'panel4',
-    pergunta: '4. Vocês trabalham com lentes antirreflexo?',
-    resposta: 'Sim, nossas lentes antirreflexo reduzem o brilho, proporcionando maior conforto visual em ambientes iluminados e ao dirigir à noite.'
+    id: 4,
+    pergunta: '4. Quais tipos de lentes vocês trabalham?',
+    resposta: 'Trabalhamos com laboratórios de ponta. Temos Lentes Digitais, Antirreflexo, Filtro Azul (Blue Control), Multifocais e Fotossensíveis (que escurecem no sol). Temos a lente ideal para o seu orçamento.'
   },
   {
-    id: 'panel5',
-    pergunta: '5. É possível fazer óculos de sol com grau?',
-    resposta: 'Com certeza! É possível colocar grau na maioria dos modelos de óculos de sol, garantindo proteção UV e correção visual ao mesmo tempo.'
+    id: 5,
+    pergunta: '5. Tenho grau alto. A promoção vale para mim?',
+    resposta: 'Sim! Temos opções de lentes de alto índice (mais finas) para graus elevados. Independente do seu grau, na compra do par de lentes, a armação da promoção continua sendo grátis.'
   },
   {
-    id: 'panel6',
-    pergunta: '6. Vocês oferecem assistência para ajustes e manutenção dos óculos?',
-    resposta: 'Sim, oferecemos ajustes gratuitos de plaquetas e hastes, além de limpeza ultrassônica vitalícia para nossos clientes.'
+    id: 6,
+    pergunta: '6. Quanto tempo demora para os óculos ficarem prontos?',
+    resposta: 'Agilidade é nosso forte. Lentes de visão simples podem ficar prontas em até 1 hora (sujeito a disponibilidade do laboratório local). Multifocais personalizadas levam de 5 a 10 dias úteis.'
   },
   {
-    id: 'panel7',
-    pergunta: '7. Quanto tempo leva para os óculos ficarem prontos?',
-    resposta: 'O prazo varia de acordo com o tipo de lente. Lentes simples podem ficar prontas em até 1 hora (dependendo do laboratório local), enquanto multifocais personalizadas levam em média 5 a 10 dias úteis.'
+    id: 7,
+    pergunta: '7. E se eu não me adaptar com os óculos?',
+    resposta: 'Fique tranquilo. Oferecemos garantia total de adaptação. Caso sinta desconforto ou não se adapte ao grau conferido, fazemos a troca das lentes conforme a política de garantia.'
   },
   {
-    id: 'panel8',
-    pergunta: '8. Como saber se minhas lentes precisam ser trocadas?',
-    resposta: 'Sinais como dores de cabeça, visão embaçada ou necessidade de afastar objetos para ler indicam que pode ser hora de renovar o grau. Recomendamos visitas anuais ao oftalmologista.'
+    id: 8,
+    pergunta: '8. Quais são as formas de pagamento?',
+    resposta: 'Queremos facilitar sua vida. Parcelamos sua compra em até 10x sem juros no cartão de crédito. Óculos novos com parcelas que cabem no bolso.'
   },
   {
-    id: 'panel9',
-    pergunta: '9. Vocês aceitam receitas de outros oftalmologistas?',
-    resposta: 'Aceitamos receitas de qualquer médico oftalmologista, desde que estejam dentro da validade.'
+    id: 9,
+    pergunta: '9. As armações gratuitas são de qualidade?',
+    resposta: 'Sim, são armações modernas, feitas de materiais resistentes como acetato, TR90 e metal. Você escolhe o modelo que mais combina com seu rosto dentre as opções da campanha.'
   },
   {
-    id: 'panel10',
-    pergunta: '10. As unidades da ótica estão próximas de mim?',
-    resposta: 'Temos diversas unidades espalhadas pela cidade. Consulte nosso localizador de lojas no site para encontrar a mais próxima.'
+    id: 10,
+    pergunta: '10. Onde ficam as unidades da ótica?',
+    resposta: 'Temos diversas lojas estrategicamente localizadas. Ao clicar no botão de agendamento, nossa equipe direcionará você para a unidade mais próxima da sua casa ou trabalho.'
   }
 ];

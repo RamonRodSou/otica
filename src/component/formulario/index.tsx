@@ -58,12 +58,11 @@ export default function Formulario() {
             <Box className="formulario-data">
                 <Box className="infor">
                     <Typography variant="h2" component="h2" className="title">
-                        Aproveite agora mesmo as melhores ofertas!
+                        Cadastre-se para ativar sua Oferta Dupla!
                     </Typography>
                     
                     <Typography variant="body1" className="subtitle">
-                        Complete o cadastro agora e receba um voucher de desconto para aproveitar nossas promoções incríveis. 
-                        <br/><span>Simples, rápido e vantajoso!</span>
+                        Preencha abaixo para liberar seu Exame Cortesia e garantir sua Armação Grátis. Nossa equipe entrará em contato via WhatsApp para confirmar o horário.                        <br/><span>Simples, rápido e vantajoso!</span>
                     </Typography>
                 </Box>
 
@@ -128,7 +127,7 @@ export default function Formulario() {
                             }
                         }}
                     >
-                        GARANTIR MEU VOUCHER!
+                        ATIVAR PROMOÇÃO AGORA
                     </Button>
                 </form>
             </Box>

@@ -15,10 +15,13 @@ export default function Vantagem() {
         <Box className="vantagem">
             <Box className="infor">
                 <Typography variant='h3' className='title'>
-                    Vantagens imperdíveis esperam por você!
+                    Por que essa é a melhor oferta de SP?
                 </Typography>
                 <Typography variant='body1' className='subtitle'>
-                    Não perca a chance de acessar benefícios exclusivos: Preencha nosso formulário, agende sua visita e receba seu voucher em minutos. Tudo rápido e fácil!
+                Esqueça as pegadinhas. Aqui a transparência é total:<br/>
+                * Você agenda seu Exame de Vista Cortesia.<br/>
+                * Escolhe as lentes ideais para o seu grau.<br/>
+                * E GANHA a armação de presente (seleção de milhares de modelos).
                 </Typography>
                 <Box className="image" onClick={handleSubmit}>
                     <img src={voucherImg} alt="Vohcer 33 porcentos" width='250' height='100'/>

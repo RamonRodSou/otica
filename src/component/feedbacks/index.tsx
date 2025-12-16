@@ -12,11 +12,11 @@ export default function Feedback() {
         <Box className="feedback">
             <Box className="infor">
                 <Typography variant="h2" component="h2" className="title">
-                    Histórias reais de clientes satisfeitos com nossos óculos e atendimento!
+                    Quem aproveitou, recomenda!
                 </Typography>
                 
                 <Typography variant="body1" className="subtitle">
-                    Descubra como impactamos positivamente a vida de quem confia em nossos serviços. Veja depoimentos e sinta-se seguro para escolher o melhor!
+                    Veja o que dizem os clientes que já garantiram óculos novos com economia na Ótica Exótica.
                 </Typography>
             </Box>
 

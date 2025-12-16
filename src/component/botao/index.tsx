@@ -13,7 +13,7 @@ export default function Botao({ nome, color, text }: Atributos) {
     const BACKGROUND_COLOR = color ? color : 'var(--premio)' ;
     const HOVER_COLOR = 'var(--premio-houver)';  
     const TEXT_COLOR = text ? text : 'var(--secondary)'
-    const NOME = nome ? nome : 'RETIRAR MEU VOUCHER!'
+    const NOME = nome ? nome : 'QUERO AGENDAR MEU EXAME!'
 
     async function handleSubmit(): Promise<void> {
         const element = document.getElementById('faleConosco');
