@@ -21,14 +21,7 @@ export default function Lojas() {
                         modelos de armação
                     </Typography>
                 </Box>
-                <Box className="infor">
-                    <Typography variant='h3' className='title'>
-                        + 22
-                    </Typography>
-                    <Typography variant='body2' className='descricao'>
-                        lojas para melhor te atender
-                    </Typography>
-                </Box>
+
                 <Box className="infor">
                     <Typography variant='h3' className='title'>
                         + 50.000

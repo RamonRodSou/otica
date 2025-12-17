@@ -1,6 +1,7 @@
 import { Box, Typography } from '@mui/material';
 import './styles.scss';
 import voucherImg from '../../asserts/img/voucher.png'
+import Botao from '../botao';
 
 export default function Vantagem() {
 
@@ -23,9 +24,7 @@ export default function Vantagem() {
                 * Escolhe as lentes ideais para o seu grau.<br/>
                 * E GANHA a armação de presente (seleção de milhares de modelos).
                 </Typography>
-                <Box className="image" onClick={handleSubmit}>
-                    <img src={voucherImg} alt="Vohcer 33 porcentos" width='250' height='100'/>
-                </Box>
+                <Botao color='var(--secondary)' text='var(--primary)'/>
             </Box>
         </Box>
 

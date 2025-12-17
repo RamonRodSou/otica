@@ -41,8 +41,8 @@ export default function BenefitsSection() {
       >
         <BenefitItem
           icon={<AccessTimeOutlinedIcon />}
-          title="Pronto em"
-          subtitle="até 1h"
+          title="Tempo"
+          subtitle="Limitado"
         />
 
         <BenefitItem

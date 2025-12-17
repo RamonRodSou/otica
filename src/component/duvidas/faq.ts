@@ -27,7 +27,7 @@ export const faqData = [
   {
     id: 6,
     pergunta: '6. Quanto tempo demora para os óculos ficarem prontos?',
-    resposta: 'Agilidade é nosso forte. Lentes de visão simples podem ficar prontas em até 1 hora (sujeito a disponibilidade do laboratório local). Multifocais personalizadas levam de 5 a 10 dias úteis.'
+    resposta: 'Agilidade é nosso forte. Lentes de visão simples podem ficar prontas em até 1-2 dias (sujeito a disponibilidade do laboratório local). Multifocais personalizadas levam de 5-10 dias úteis.'
   },
   {
     id: 7,
