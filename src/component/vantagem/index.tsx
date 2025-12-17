@@ -5,13 +5,6 @@ import Botao from '../botao';
 
 export default function Vantagem() {
 
-    async function handleSubmit(): Promise<void> {
-        const element = document.getElementById('faleConosco');
-        if (element) {
-            element.scrollIntoView({ behavior: 'smooth' }); 
-        }
-    }
-
     return (
         <Box className="vantagem">
             <Box className="infor">

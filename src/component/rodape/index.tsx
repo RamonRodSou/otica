@@ -16,8 +16,10 @@ export default function Rodape() {
     return (
         <Box className="rodape" onClick={handleClick}>
             <p className='description'>© Copyright</p>
-            <img src={logo} alt="Logo Technosou Solution" width={20} />
-            <p className='description'>Technosou - Since 2023</p>
+            <span>
+                <img src={logo} alt="Logo Technosou Solution" width={20} />
+                <p className='description'>Technosou & Panda Hub - Since 2023</p>
+            </span>
         </Box>
     )
 }
