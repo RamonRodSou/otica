@@ -23,7 +23,7 @@ function App() {
             <Solucao/>
             <Vantagem/>
             <Feedbacks/>
-            <Formulario/>
+            {/* <Formulario/> */}
             <Duvidas/>
             <BotaoUp/>
         </main>
