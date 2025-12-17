@@ -6,10 +6,10 @@ import './styles.scss';
 import Botao from '../botao';
 
 export default function Duvidas() {
-    const [expanded, setExpanded] = useState<string | false>(false);
+    const [expanded, setExpanded] = useState<number>(0);
 
-    const handleChange = (panel: string) => (event: React.SyntheticEvent, isExpanded: boolean) => {
-        setExpanded(isExpanded ? panel : false);
+    const handleChange = (panel: number) => (event: React.SyntheticEvent, isExpanded: boolean) => {
+        setExpanded(isExpanded ? panel : 0);
     };
 
     return (
