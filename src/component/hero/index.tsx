@@ -24,6 +24,7 @@ export default function Hero() {
                 </Box>
             </Box>
             <Box>
+                <Typography variant='body1'>Você só paga as lentes</Typography>
                 <BenefitsSection/>
                 <Botao/>
             </Box>
