@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import TagManager from 'react-gtm-module';
 import './App.css';
 import Cabecalho from './component/cabecalho';
 import Hero from './component/hero';
@@ -13,23 +14,31 @@ import Lojas from './component/lojas';
 import BotaoUp from './component/botaoUp';
 
 function App() {
+    
+    useEffect(() => {
+        const tagManagerArgs = {
+            gtmId: 'GTM-5PCCD2NQ'
+        };
+        TagManager.initialize(tagManagerArgs);
+    }, []);
+
     return (
         <div className="App">
-        <Cabecalho/>
-        <main>
-            <Hero/>
-            <Lojas/>
-            <Produtos/>
-            <Solucao/>
-            <Vantagem/>
-            <Feedbacks/>
-            {/* <Formulario/> */}
-            <Duvidas/>
-            <BotaoUp/>
-        </main>
-        <footer>
-            <Rodape/>
-        </footer>
+            <Cabecalho/>
+            <main>
+                <Hero/>
+                <Lojas/>
+                <Produtos/>
+                <Solucao/>
+                <Vantagem/>
+                <Feedbacks/>
+                {/* <Formulario/> */}
+                <Duvidas/>
+                <BotaoUp/>
+            </main>
+            <footer>
+                <Rodape/>
+            </footer>
         </div>
     );
 }
